@@ -1,6 +1,6 @@
-# Newsweek Clone
+# Course Platform Page
 
-> This is a web development course page.
+> This is a web development course platform page.
 
 ![screenshot](./images/screenshot.png)
 
@@ -13,7 +13,7 @@ The main point here is to full fill the Business Requirements.
   <li>Should have main page with a navbar.</li>
   <li>Should have an about page.</li>
   <li>Should have tickets page to buy the courses.</li>
-  <li>At least two breakpoints, limited in 768px.</li>
+  <li>At least two breakpoints, boundaries in 768px.</li>
 </ul>
 
 <ul>
