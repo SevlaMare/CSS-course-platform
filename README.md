@@ -78,4 +78,7 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+Style pattern by Cindy Shin<br>
+https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
+<br>
+<strong>creative commons</strong>

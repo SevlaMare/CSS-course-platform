@@ -1,6 +1,55 @@
-/* colors */
 * {
-  color: #272a31;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+
+  font-family: ;
+  font-weight: 400px;
+  font-size: 1rem;
+}
+
+/* --- POSITION --- */
+.container {
+  width: 992px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-end{
+  justify-content: flex-end;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+/* --- COLORS --- */
+.bg-dark {
+  background: #272a31;
+}
+
+.bg-light {
+  background: #d3d3d3;
+}
+
+#text-red {
   color: #ec5242;
+}
+
+/* --- NAVBAR --- */
+.icon-nav {
+  width: 20px;
+}
+
+#nav-top {
   color: #d3d3d3;
+}
+
+/* --- TABLET BREAKPOINT --- */
+@media (min-width: 768px) {
+
 }
