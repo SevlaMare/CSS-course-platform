@@ -1,10 +1,12 @@
 * {
+  /* --- RESET --- */
   margin: 0;
   padding: 0;
   border: 0;
   text-decoration: none;
 
-  font-family: ;
+  /* --- DEFAULT TYPOGRAPHY --- */
+  font-family: "cocogoose lato";
   font-weight: 400px;
   font-size: 1rem;
 }
@@ -19,12 +21,46 @@
   display: flex;
 }
 
-.flex-end{
+.flex-end {
   justify-content: flex-end;
 }
 
 .space-around {
   justify-content: space-around;
+}
+
+.space-around {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+/* --- SPACING --- */
+.mx-1 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.my-1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.my-4 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.px-1 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.py-1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* --- COLORS --- */
@@ -36,20 +72,82 @@
   background: #d3d3d3;
 }
 
-#text-red {
+.t-dark {
+  color: #272a31;
+}
+
+.t-light {
+  color: #d3d3d3;
+}
+
+.t-alert {
   color: #ec5242;
 }
 
+/* --- TYPOGRAPHY --- */
+.t-0 {
+  font-size: 0.8rem;
+}
+
+.t-1 {
+  font-size: 1.2rem;
+}
+
+.t-2 {
+  font-size: 1.4rem;
+}
+
+.t-3 {
+  font-size: 1.6rem;
+}
+
+.t-4 {
+  font-size: 2rem;
+}
+
+.t-5 {
+  font-size: 3rem;
+}
+
+/* --- BUTTONS --- */
+.btn-r {
+  color: #ec5242;
+  border: solid 3px #ec5242;
+  padding: 4px 8px;
+}
+
 /* --- NAVBAR --- */
-.icon-nav {
-  width: 20px;
+#logo {
+  font-size: 2rem;
 }
 
 #nav-top {
   color: #d3d3d3;
 }
 
-/* --- TABLET BREAKPOINT --- */
-@media (min-width: 768px) {
+.nav-links a {
+  color: #272a31;
+  margin-left: 36px;
+}
 
+.icon-nav {
+  width: 20px;
+}
+
+/* --- BANNER --- */
+#banner {
+  background: lightgray;
+}
+
+.banner-title {
+  font-weight: 700;
+  max-width: 520px;
+}
+
+/* --- TABLET BREAKPOINT --- */
+@media (max-width: 768px) {
+  * {
+    color: #ec5242;
+    font-size: 2rem;
+  }
 }
