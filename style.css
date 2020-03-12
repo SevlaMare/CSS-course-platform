@@ -9,6 +9,7 @@
   font-family: "cocogoose lato";
   font-weight: 400px;
   font-size: 1rem;
+  color: #272a31;
 }
 
 /* --- POSITION --- */
@@ -29,7 +30,7 @@
   justify-content: space-around;
 }
 
-.space-around {
+.space-between{
   justify-content: space-between;
 }
 
@@ -48,6 +49,16 @@
   margin-bottom: 10px;
 }
 
+.mx-2 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.my-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .my-4 {
   margin-top: 80px;
   margin-bottom: 80px;
@@ -61,6 +72,16 @@
 .py-1 {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.px-2 {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.py-2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* --- COLORS --- */
@@ -78,6 +99,10 @@
 
 .t-light {
   color: #d3d3d3;
+}
+
+.t-white {
+  color: #fff;
 }
 
 .t-alert {
@@ -109,10 +134,15 @@
   font-size: 3rem;
 }
 
+.t-center {
+  text-align: center;
+}
+
 /* --- BUTTONS --- */
 .btn-r {
   color: #ec5242;
   border: solid 3px #ec5242;
+  border-radius: 2px;
   padding: 4px 8px;
 }
 
@@ -125,6 +155,10 @@
   color: #d3d3d3;
 }
 
+#nav-links-f {
+  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.75);
+}
+
 .nav-links a {
   color: #272a31;
   margin-left: 36px;
@@ -135,14 +169,65 @@
 }
 
 /* --- BANNER --- */
-#banner {
-  background: lightgray;
+#banner-bg {
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.banner-description {
+  max-width: 350px;
+  border: 2px solid #fff;
+  border-radius: 1px;
 }
 
 .banner-title {
   font-weight: 700;
   max-width: 520px;
 }
+
+.banner-date {
+  font-weight: 700;
+}
+
+/* --- MAIN PROGRAMN --- */
+#main-programn {
+  background: #272a31;
+}
+
+.link-call {
+  text-transform: uppercase;
+  text-decoration: underline;
+  line-height: 36px;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template: 1fr / repeat(4, 200px);
+  grid-gap: 15px;
+  justify-content: center;
+}
+
+.grid-1-item {
+  padding: 15px 15px;
+  background: rgba(246, 246, 246, 0.1);
+}
+
+.g1-item-3 {
+  border: 2px solid #d3d3d3;
+}
+
+.grid-1-icon {
+  width: 20px;
+}
+
+.hr-mini {
+  width: 45px;
+  border-top: 1px solid #ec5242;
+  margin: auto;
+  padding: 10px;
+}
+
 
 /* --- TABLET BREAKPOINT --- */
 @media (max-width: 768px) {
