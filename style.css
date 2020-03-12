@@ -30,12 +30,17 @@
   justify-content: space-around;
 }
 
-.space-between{
+.space-between {
   justify-content: space-between;
 }
 
 .items-center {
   align-items: center;
+}
+
+.float-left {
+  float: left;
+  margin-right: 20px;
 }
 
 /* --- SPACING --- */
@@ -156,7 +161,7 @@
 }
 
 #nav-links-f {
-  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.75);
 }
 
 .nav-links a {
@@ -228,6 +233,21 @@
   padding: 10px;
 }
 
+/* ---FEATURE SPEAKER --- */
+.grid-2 {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  grid-gap: 15px;
+}
+
+.grid-2-item {
+  padding: 15px 15px;
+  background: rgba(246, 246, 246, 0.1);
+}
+
+.grid-2-avatar {
+  width: 120px;
+}
 
 /* --- TABLET BREAKPOINT --- */
 @media (max-width: 768px) {
