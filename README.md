@@ -78,7 +78,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-Style pattern by Cindy Shin<br>
-https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
-<br>
-<strong>creative commons</strong>
+Design idea by <a href="https://www.behance.net/adagio07">Cindy Shin in Behance</a>
+
+<strong>Creative Commons</strong>
