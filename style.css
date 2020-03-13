@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "cocogoose";
+  src: url("Cocogoose.ttf");
+}
+
+@font-face {
+  font-family: "lato";
+  src: url("Lato.ttf");
+}
+
 * {
   /* --- RESET --- */
   margin: 0;
@@ -6,7 +16,8 @@
   text-decoration: none;
 
   /* --- DEFAULT TYPOGRAPHY --- */
-  font-family: "cocogoose lato";
+  font-family: "cocogoose";
+  font-variant: "lato";
   font-weight: 400px;
   font-size: 1rem;
   color: #272a31;
@@ -144,6 +155,11 @@ li {
   padding-bottom: 20px;
 }
 
+.py-4 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 .pt-4 {
   padding-top: 80px;
 }
@@ -155,6 +171,10 @@ li {
 
 .bg-light {
   background: #d3d3d3;
+}
+
+.bg-alert {
+  background: #ec5242;
 }
 
 .t-dark {
@@ -365,7 +385,8 @@ li {
 #about-logo {
   display: inline-block;
   font-size: 3rem;
-  padding: 30px 60px;
+  padding: 25px 55px;
+  margin: 50px 0;
   border: 1px solid #d3d3d3;
 }
 
@@ -383,6 +404,12 @@ li {
 .offset {
   position: relative;
   top: -180px;
+}
+
+#buy {
+  padding: 15px;
+  border-radius: 3px;
+  color: #fff;
 }
 
 /* --- TICKETS PAGE --- */
@@ -405,10 +432,28 @@ thead {
   padding: 10px 40px;
 }
 
+#step {
+  padding: 15px 5px;
+  width: 400px;
+  margin: 0 auto;
+  border: solid 1px #272a31;
+  border-radius: 40px;
+}
+
+#buy {
+  width: 100px;
+  margin: 0 auto;
+}
+
 /* --- SMARTPHONE BREAKPOINT --- */
 @media (max-width: 411px) {
-  #logo {
-    display: none;
+  #logo,
+  #table-laptop {
+    display: none !important;
+  }
+  
+  #join-btn {
+    font-size: 1rem;
   }
 
   #nav-top {
@@ -432,6 +477,15 @@ thead {
 
   .grid-2 {
     grid-template: repeat(4, 1fr) / 1fr;
+  }
+
+  .img-team {
+    margin-left: 50px;
+    width: 300px;
+  }
+
+  .grid-3 {
+    grid-template: repeat(2, 1fr) / 1fr;
   }
 }
 
