@@ -16,8 +16,7 @@
   text-decoration: none;
 
   /* --- DEFAULT TYPOGRAPHY --- */
-  font-family: "cocogoose";
-  font-variant: "lato";
+  font-family: "cocogoose", "lato", "Arial";
   font-weight: 400px;
   font-size: 1rem;
   color: #272a31;
@@ -410,6 +409,8 @@ li {
   padding: 15px;
   border-radius: 3px;
   color: #fff;
+  width: 100px;
+  margin: 0 auto;
 }
 
 /* --- TICKETS PAGE --- */
@@ -440,18 +441,13 @@ thead {
   border-radius: 40px;
 }
 
-#buy {
-  width: 100px;
-  margin: 0 auto;
-}
-
 /* --- SMARTPHONE BREAKPOINT --- */
 @media (max-width: 411px) {
   #logo,
   #table-laptop {
     display: none !important;
   }
-  
+
   #join-btn {
     font-size: 1rem;
   }
