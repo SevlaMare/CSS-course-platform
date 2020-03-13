@@ -18,12 +18,15 @@ li {
 
 /* --- POSITION --- */
 .container {
-  width: 992px;
   margin: 0 auto;
 }
 
 .flex {
   display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
 }
 
 .inline-block {
@@ -317,6 +320,7 @@ li {
 
 .grid-2-avatar {
   width: 120px;
+  margin-bottom: 10px;
 }
 
 .hr-mini-dark {
@@ -401,10 +405,51 @@ thead {
   padding: 10px 40px;
 }
 
+/* --- SMARTPHONE BREAKPOINT --- */
+@media (max-width: 411px) {
+  #logo {
+    display: none;
+  }
+
+  #nav-top {
+    display: none;
+  }
+
+  #nav-links-f {
+    position: sticky !important;
+    top: 0;
+    background: #fff;
+  }
+
+  .container {
+    width: auto;
+    margin: 0 5px;
+  }
+
+  .grid-1 {
+    grid-template: repeat(4, 1fr) / 200px !important;
+  }
+
+  .grid-2 {
+    grid-template: repeat(4, 1fr) / 1fr;
+  }
+}
+
 /* --- TABLET BREAKPOINT --- */
 @media (max-width: 768px) {
-  * {
-    color: #ec5242;
-    font-size: 2rem;
+  .container {
+    width: auto;
+    margin: 0 15px;
+  }
+
+  .grid-1 {
+    grid-template: repeat(2, 1fr) / repeat(2, 200px);
+  }
+}
+
+/* --- LAPTOP BREAKPOINT --- */
+@media (min-width: 992px) {
+  .container {
+    width: 992px;
   }
 }
