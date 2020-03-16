@@ -1,10 +1,17 @@
 # Course Platform Page
 
-> This is a web development course platform page.
+> This project is a web page to land a course platform,
+where you can buy tickets for the next online classes.
 
-![screenshot](./images/screenshot.png)
+![screenshot](./images/screenshot/home.png)
+This is the home page, with a modern and minimalist design.
 
-The main point here is to full fill the Business Requirements.
+![screenshot](./images/screenshot/about.png)
+We have another page about programn, which is very descriptive.
+
+![screenshot](./images/screenshot/tickets.png)
+On the last page, you can check out to buy a ticket, with just 3 clicks.
+
 
 ## Requirements
 
@@ -20,7 +27,7 @@ The main point here is to full fill the Business Requirements.
   <h3>Specific</h3>
   <li>Use this colors: #272a31, #ec5242 and #d3d3d3</li>
   <li>Typographies: font face, size and weight</li>
-  <li>layout: composition and space between elements, for the 2 given screen sizes</li>
+  <li>Layout: composition and space between elements, for the 2 given screen sizes</li>
 </ul>
 
 ## Built With
@@ -35,11 +42,11 @@ The main point here is to full fill the Business Requirements.
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these steps.
 
 ### Prerequisites
 
-If you don't want to follow the commits history skip this steps<br>
+If you don't want to follow the commits history, skip this steps<br>
 -Download Git at https://git-scm.com/downloads<br>
 -Make a Github account and setup your SSH key in your current machine.<br>
 -Clone the repository with terminal:<br>
