@@ -89,6 +89,11 @@ li {
   margin-bottom: 30px !important;
 }
 
+.mx-0 {
+  margin-right: 5px !important;
+  margin-left: 5px !important;
+}
+
 .mx-1 {
   margin-right: 10px;
   margin-left: 10px;
@@ -102,6 +107,14 @@ li {
 .mx-2 {
   margin-right: 20px;
   margin-left: 20px;
+}
+
+.ml-4 {
+  margin-left: 40px;
+}
+
+.mr-1 {
+  margin-right: 10px;
 }
 
 .my-2 {
@@ -450,16 +463,10 @@ thead {
 /* --- SMARTPHONE BREAKPOINT --- */
 @media (max-width: 411px) {
   #logo,
-  #table-laptop {
-    display: none !important;
-  }
-
+  #table-laptop,
+  #nav-top,
   #join-btn {
-    font-size: 1rem;
-  }
-
-  #nav-top {
-    display: none;
+    display: none !important;
   }
 
   #banner-bg {
@@ -504,6 +511,12 @@ thead {
 
   .grid-1 {
     grid-template: repeat(2, 1fr) / repeat(2, 200px);
+  }
+}
+
+@media (min-width: 768px) {
+  #nav-smartphone {
+    display: none;
   }
 }
 
