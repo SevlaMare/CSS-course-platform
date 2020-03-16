@@ -31,7 +31,7 @@ The main point here is to full fill the Business Requirements.
 
 ## Live Demo
 
-[Live Demo Link](https://sevlamare.github.io/newsweek-clone/)
+[Live Demo Link](https://sevlamare.github.io/CSS-course-platform/)
 
 ## Getting Started
 
