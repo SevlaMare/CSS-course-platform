@@ -61,7 +61,7 @@ Unzip de files. It's ready to use!
 
 Just drag drop, the index.html on some web browser, like Google Crome.
 
-## Authors
+## Author
 
 👤 **Thiago Miranda**
 

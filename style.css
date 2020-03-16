@@ -416,6 +416,7 @@ li {
 /* --- TICKETS PAGE --- */
 table {
   margin: 50px auto;
+  border-collapse: collapse;
   border: 3px solid #ec5242;
   background: #fff;
 }
@@ -424,18 +425,23 @@ td {
   border: 1px solid #d3d3d3;
 }
 
+td, tr {
+  text-align: center;
+  width: fit-content;
+}
+
 thead {
   background-color: #d3d3d3;
   color: #fff;
 }
 
 .cellpadding {
-  padding: 10px 40px;
+  padding: 15px 10px;
 }
 
 .step {
   padding: 15px 5px;
-  width: 400px;
+  width: 300px;
   margin: 0 auto;
   border: solid 1px #272a31;
   border-radius: 40px;
@@ -468,7 +474,7 @@ thead {
 
   .container {
     width: auto;
-    margin: 0 5px;
+    margin: 0 5px !important;
   }
 
   .grid-1 {
