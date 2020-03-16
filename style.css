@@ -456,6 +456,10 @@ thead {
     display: none;
   }
 
+  #banner-bg {
+    background-size: auto 100%;
+  }
+
   #nav-links-f {
     position: sticky !important;
     top: 0;
