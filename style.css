@@ -355,12 +355,6 @@ li {
   margin-bottom: 10px;
 }
 
-.hr-mini-dark {
-  border-top: solid 1px #d3d3d3;
-  width: 25px;
-  margin: 10px 0;
-}
-
 .img-chess {
   position: relative;
   float: left;
@@ -368,6 +362,12 @@ li {
   right: -50px;
   width: 70px;
   z-index: -1;
+}
+
+.hr-mini-dark {
+  border-top: solid 1px #d3d3d3;
+  width: 25px;
+  margin: 10px 0;
 }
 
 /* --- FOOTER --- */
@@ -486,11 +486,11 @@ thead {
   #nav-links-f {
     position: sticky !important;
     top: 0;
+    z-index: 3;
     background: #fff;
   }
 
   .container {
-    width: auto;
     margin: 0 5px !important;
   }
 
@@ -498,9 +498,18 @@ thead {
     grid-template: repeat(4, 1fr) / 200px !important;
   }
 
-  .img-team {
-    margin-left: 50px;
-    width: 300px;
+  .img-chess {
+    left: 5px;
+  }
+
+  .grid-2-avatar {
+    position: relative;
+    left: -50px;
+  }
+
+  .grid-2-text {
+    position: relative;
+    left: -60px;
   }
 
   .grid-3 {
@@ -521,6 +530,12 @@ thead {
 
   .grid-2 {
     grid-template: repeat(4, 1fr) / 1fr;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
+  #banner-bg {
+    background-size: auto 100%;
   }
 }
 
