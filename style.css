@@ -127,6 +127,11 @@ li {
   margin-bottom: 80px;
 }
 
+.mx-auto {
+  width: 280px;
+  margin: 10px auto !important;
+}
+
 .px-1 {
   padding-right: 10px;
   padding-left: 10px;
@@ -415,6 +420,13 @@ li {
   width: 300px;
 }
 
+.gradient-cover {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.25);
+  width: 300px; 
+  height: 200px; 
+}
+
 .grid-3 {
   display: grid;
   grid-template: 1fr / repeat(2, 300px);
@@ -514,6 +526,8 @@ thead {
 
   .grid-3 {
     grid-template: repeat(2, 1fr) / 1fr;
+    grid-gap: 0;
+    margin-left: 10px;
   }
 }
 
