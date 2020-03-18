@@ -482,7 +482,7 @@ thead {
   border-radius: 40px;
 }
 
-/* --- SMARTPHONE BREAKPOINT --- */
+/* --- MODERN SMARTPHONE BREAKPOINT --- */
 @media (max-width: 411px) {
   #logo,
   #table-laptop,
@@ -528,6 +528,14 @@ thead {
     grid-template: repeat(2, 1fr) / 1fr;
     grid-gap: 0;
     margin-left: 10px;
+  }
+}
+
+/* --- 10 YEARS OLD SMARTPHONES BREAKPOINT --- */
+@media (min-width: 0px) and (max-width: 320px){
+  .grid-2-text {
+    clear: both;
+    left: 0;
   }
 }
 
