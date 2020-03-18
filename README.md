@@ -38,7 +38,7 @@ On the last page, you can check out to buy a ticket, with just 3 clicks.
 
 ## Live Demo
 
-[Live Demo Link](https://sevlamare.github.io/CSS-course-platform/)
+[Live Demo Link](https://rawcdn.githack.com/SevlaMare/CSS-course-platform/b6296c24137645b99c4b0766312f6121f110cef5/index.html)
 
 ## Getting Started
 
