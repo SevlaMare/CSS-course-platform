@@ -532,7 +532,7 @@ thead {
 }
 
 /* --- 10 YEARS OLD SMARTPHONES BREAKPOINT --- */
-@media (min-width: 0px) and (max-width: 320px) {
+@media (min-width: 0) and (max-width: 320px) {
   .grid-2-text {
     clear: both;
     left: 0;
@@ -544,7 +544,8 @@ thead {
     width: 270px;
   }
 
-  th, td {
+  th, 
+  td {
     font-size: 11px;
   }
 }
