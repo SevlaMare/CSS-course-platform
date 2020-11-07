@@ -67,7 +67,7 @@ Just drag-drop, the index.html on some web browser, like Google Chrome.
 
 - Github: [@SevlaMare](https://github.com/SevlaMare)
 - Twitter: [#SevlaMare)](https://twitter.com/SevlaMare)
-- Linkedin: [SevlaMare)](https://www.linkedin.com/in/sevlamare)
+- Linkedin: [SevlaMare)](https://www.linkedin.com/in/sevla-mare)
 
 ## 🤝 Contributing
 
