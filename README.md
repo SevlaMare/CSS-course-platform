@@ -12,6 +12,9 @@ We have another page about the program, which is very descriptive.
 ![screenshot](./images/screenshot/tickets.png)
 On the last page, you can check out to buy a ticket, with just 3 clicks.
 
+## Live Demo
+
+[Live Demo Link](https://sevlamare.github.io/CSS-course-platform/)
 
 ## Requirements
 
@@ -36,9 +39,10 @@ On the last page, you can check out to buy a ticket, with just 3 clicks.
 - Stickler-CI (Linter) and W3C validator <br>
 - Git, Github and VScode <br>
 
-## Live Demo
+## Potential future features
 
-[Live Demo Link](https://sevlamare.github.io/CSS-course-platform/)
+- Implement the back-end
+- Add CSS effects
 
 ## Getting Started
 
