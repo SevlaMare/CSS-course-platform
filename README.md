@@ -1,7 +1,9 @@
 # Course Platform Page
 
-> This project is a web page to land a course platform,
-where you can buy tickets for the next online classes.
+> A web page to land a course platform, where you can buy tickets for the next online classes.
+
+This project was made to practice all technical aspects from HTML/CSS involved while building websites, such as responsive layout, spacing, typography, and accessibility.
+
 
 ![screenshot](./images/screenshot/home.png)
 This is the home page, with a modern and minimalist design.
