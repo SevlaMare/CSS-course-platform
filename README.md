@@ -7,7 +7,7 @@ where you can buy tickets for the next online classes.
 This is the home page, with a modern and minimalist design.
 
 ![screenshot](./images/screenshot/about.png)
-We have another page about programn, which is very descriptive.
+We have another page about the program, which is very descriptive.
 
 ![screenshot](./images/screenshot/tickets.png)
 On the last page, you can check out to buy a ticket, with just 3 clicks.
@@ -17,9 +17,9 @@ On the last page, you can check out to buy a ticket, with just 3 clicks.
 
 <ul>
   <h3>General</h3>
-  <li>Should have main page with a navbar.</li>
+  <li>Should have the main page with a navbar.</li>
   <li>Should have an about page.</li>
-  <li>Should have tickets page to buy the courses.</li>
+  <li>Should have the tickets page to buy the courses.</li>
   <li>At least two breakpoints, boundaries in 768px.</li>
 </ul>
 
@@ -46,20 +46,20 @@ To get a local copy up and running follow these steps.
 
 ### Prerequisites
 
-If you don't want to follow the commits history, skip this steps<br>
+If you don't want to follow the commits history, skip these steps<br>
 -Download Git at https://git-scm.com/downloads<br>
--Make a Github account and setup your SSH key in your current machine.<br>
+-Make a Github account and set up your SSH key in your current machine.<br>
 -Clone the repository with terminal:<br>
 git clone git@github.com:SevlaMare/mint-sign-up-clone.git
 
 ### Setup
 
-Click on green button in this page (Clone or download) and click on (Download Zip)<br>
-Unzip de files. It's ready to use!
+Click on the green button on this page (Code) and click on (Download Zip)<br>
+Unzip files. It's ready to use!
 
 ### Run
 
-Just drag drop, the index.html on some web browser, like Google Crome.
+Just drag-drop, the index.html on some web browser, like Google Chrome.
 
 ## Author
 
@@ -81,7 +81,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- A special thanks for the code reviewers.
+- A special thanks to the code reviewers.
 
 ## 📝 License
 
